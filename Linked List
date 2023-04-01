@@ -1,0 +1,18 @@
+import java.util.LinkedList;
+
+public class Linkedlist {
+    public static void main(String[] args) {
+        LinkedList l1 = new LinkedList();
+        l1.add(111);
+        l1.add(112);
+        l1.add(133);
+    //    System.out.println(l1);
+        LinkedList l2 = new LinkedList();
+       // l2.add(l1);
+        //System.out.println(l2);
+
+        l1.addFirst(110);
+        l1.addLast(134);
+        System.out.println(l1);
+    }
+}
