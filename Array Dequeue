@@ -1,0 +1,15 @@
+import java.util.ArrayDeque;
+
+public class Arraydeque {
+    public static void main(String[] args) {
+        ArrayDeque ad1 = new ArrayDeque();
+        ad1.add(100);
+        ad1.add(200);
+        System.out.println(ad1);
+
+        ad1.offerFirst(99);
+        ad1.offerLast("Akshat");
+        ad1.offerLast(98);
+        System.out.println(ad1);
+    }
+}
