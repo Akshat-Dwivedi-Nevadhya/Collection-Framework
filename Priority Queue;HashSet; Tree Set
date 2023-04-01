@@ -1,0 +1,43 @@
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.PriorityQueue;
+import java.util.TreeSet;
+
+public class Priorityqueue {
+    public static void main(String[] args) {
+      //  PriorityQueue pq = new PriorityQueue();
+
+        /*pq.add(99);
+        pq.add(100);
+        pq.add(115);
+        pq.add(110);
+        pq.add(120);
+        pq.add(130);
+        pq.add(114);
+        pq.add(114);
+      //  pq.add("Akshat");
+        System.out.println(pq);*/
+
+      //  TreeSet ts = new TreeSet();
+        /*ts.add(100);
+        ts.add(300);
+        ts.add(250);
+        ts.add(400);
+        ts.add(75);
+        ts.add(125);
+        System.out.println(ts);*/
+
+       /* HashSet hs = new HashSet();
+        hs.add(100);
+        hs.add(200);
+        hs.add(350);
+        System.out.println(hs);*/
+
+        LinkedHashSet lhs = new LinkedHashSet();
+        lhs.add(100);
+        lhs.add(350);
+        lhs.add(679);
+        System.out.println(lhs);
+
+    }
+}
